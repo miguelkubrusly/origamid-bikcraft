@@ -1,6 +1,7 @@
 :root {
   font-family: "Poppins", "Roboto", Arial, sans-serif;
   font-size: 18px;
+  --black: #000000;
   --gray-11: #111111;
   --gray-10: #2e2e2e;
   --gray-9: #404040;
@@ -12,12 +13,28 @@
   --gray-3: #dedede;
   --gray-2: #ededed;
   --gray-1: #f7f7f7;
+  --white: #ffffff;
   --primary-5: #332200;
   --primary-4: #664400;
   --primary-3: #a66f00;
   --primary-2: #e4a30b;
   --primary-1: #ffbb00;
   color: var(--gray-11);
+}
+
+/* @media (min-width: 768px) and (max-width: 991.98px) {
+} */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  :root {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  :root {
+    font-size: 14px;
+  }
 }
 
 body {
@@ -31,7 +48,8 @@ body * {
 
 img {
   display: block;
-  width: 100%;
+  width: auto;
+  max-width: 100%;
   height: auto;
 }
 
