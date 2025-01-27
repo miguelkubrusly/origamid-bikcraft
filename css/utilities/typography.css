@@ -83,3 +83,27 @@
   font-size: calc(12 / 18 * 1rem);
   line-height: calc(16 / 18 * 1rem);
 }
+
+:root {
+  font-family: "Poppins", "Roboto", Arial, sans-serif;
+  font-size: 18px;
+  color: var(--gray-11);
+}
+
+@media (min-width: 768px) and (max-width: 1100px) {
+  :root {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 867.98px) {
+  :root {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  :root {
+    font-size: 12px;
+  }
+}
