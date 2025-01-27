@@ -13,12 +13,7 @@
 }
 .header-logo {
   align-self: center;
-  /* padding-bottom: 0.25rem; */
 }
-
-/* .header-logo:hover{
-  filter: brightness(.75);
-} */
 
 .header-menu {
   display: flex;

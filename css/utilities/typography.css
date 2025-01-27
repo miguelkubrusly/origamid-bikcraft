@@ -90,12 +90,6 @@
   color: var(--gray-11);
 }
 
-@media (min-width: 768px) and (max-width: 1100px) {
-  :root {
-    font-size: 16px;
-  }
-}
-
 @media (min-width: 576px) and (max-width: 950px) {
   :root {
     font-size: 14px;

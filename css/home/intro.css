@@ -19,14 +19,10 @@
 
 .intro h1 {
   margin-bottom: calc(32 / 18 * 1rem);
-  font-size: calc(52 / 18 * 1rem);
-  line-height: calc(72 / 18 * 1rem);
 }
 
 .intro-content p {
   margin-bottom: calc(20 / 18 * 1rem);
-  font-size: calc(24 / 18 * 1rem);
-  line-height: 1.5;
   color: var(--gray-5);
 }
 
@@ -44,6 +40,12 @@
   .intro-content {
     padding-bottom: calc(20 / 18 * 1rem);
   }
+
+  .intro-content h1 {
+    font-size: calc(56 / 18 * 1rem);
+    line-height: calc(52 / 18 * 1rem);
+  }
+
   .intro-img img {
     height: calc(300 / 18 * 1rem);
     width: 100%;
