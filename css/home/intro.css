@@ -9,7 +9,7 @@
   gap: 0 calc(40 / 18 * 1rem);
   justify-self: center;
   align-content: center;
-  padding: 2rem;
+  padding: 3rem;
 }
 
 .intro-content {
@@ -19,7 +19,7 @@
 
 .intro h1 {
   margin-bottom: calc(32 / 18 * 1rem);
-  font-size: calc(64 / 18 * 1rem);
+  font-size: calc(52 / 18 * 1rem);
   line-height: calc(72 / 18 * 1rem);
 }
 
@@ -37,7 +37,7 @@
   border-radius: calc(4 / 18 * 1rem);
 }
 
-@media (max-width: 867.98px) {
+@media (max-width: 950px) {
   .intro {
     grid-template-columns: 1fr;
   }
@@ -47,5 +47,10 @@
   .intro-img img {
     height: calc(300 / 18 * 1rem);
     width: 100%;
+    margin-top: 1rem;
+  }
+  .intro-bg {
+    background-color: var(--gray-11);
+    box-shadow: inset 0 calc(-100 / 18 * 1rem) var(--gray-000);
   }
 }

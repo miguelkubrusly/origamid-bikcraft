@@ -51,7 +51,7 @@
   padding: 0.75rem 0.1rem;
 }
 
-@media (max-width: 867.98px) {
+@media (max-width: 950px) {
   .header-menu {
     gap: 1rem;
   }
