@@ -1,5 +1,5 @@
 .container {
-  margin: 0  calc(20/18*1rem) calc(40 / 18 * 1rem)  calc(20/18*1rem);
+  margin: 0  auto;
   box-sizing: border-box;
   max-width: 1200px;
   padding: 0 calc(20 / 18 * 1rem);
