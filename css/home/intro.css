@@ -3,7 +3,6 @@
 }
 
 .intro {
-  max-width: 1500px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0 calc(40 / 18 * 1rem);
@@ -15,6 +14,7 @@
 .intro-content {
   align-self: center;
   padding-bottom: calc(200 / 18 * 1rem);
+  margin-right: 1rem;
 }
 
 .intro h1 {
@@ -30,7 +30,6 @@
   height: 100%;
   object-fit: cover;
   object-position: center right;
-  border-radius: calc(4 / 18 * 1rem);
 }
 
 @media (max-width: 950px) {
