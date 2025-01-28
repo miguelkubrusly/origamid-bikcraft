@@ -1,0 +1,73 @@
+.tecnologias-bg {
+  box-shadow: inset 0 80px var(--color-0), inset 0 -80px var(--color-0);
+}
+
+.tecnologias {
+  display: flex;
+  gap: calc(40 / 18 * 1rem);
+  justify-self: center;
+}
+
+.tecnologias-content {
+  padding: calc(160 / 18 * 1rem) calc(80 / 18 * 1rem) calc(160 / 18 * 1rem)
+    calc(40 / 18 * 1rem);
+  /* padding-left: calc(220/18*1rem); */
+}
+
+.tecnologias-content h2 {
+  min-width: 13ch;
+}
+
+.tecnologias-detalhes {
+  display: flex;
+  gap: calc(40 / 18 * 1rem);
+}
+
+.tecnologias-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: left;
+}
+
+@media (max-width: 950px) {
+  .tecnologias-content h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: calc(32 / 18 * 1rem);
+    line-height: calc(40 / 18 * 1rem);
+  }
+  .tecnologias-content h2 span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: calc(32 / 18 * 1rem);
+    line-height: calc(40 / 18 * 1rem);
+  }
+  .tecnologias-content span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: calc(18 / 18 * 1rem);
+    line-height: calc(24 / 18 * 1rem);
+  }
+  .tecnologias-img {
+    display: none;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .tecnologias-content h2 {
+    min-width: initial;
+  }
+  .tecnologias-detalhes {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 349.98px) {
+  .tecnologias-bg {
+    box-shadow: initial;
+  }
+  .tecnologias-content {
+    padding: calc(40 / 18 * 1rem);
+  }
+}
