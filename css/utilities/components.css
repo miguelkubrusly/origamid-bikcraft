@@ -26,3 +26,43 @@
 .btn-primary:hover {
   filter: brightness(0.8);
 }
+
+.link {
+  min-width: max-content;
+  display: inline-block;
+  color: var(--color-p1);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: calc(24 / 18 * 1rem);
+  line-height: calc(36 / 18 * 1rem);
+  padding: calc(40 / 18 * 1rem) 0;
+  cursor: pointer;
+}
+
+.link::after {
+  display: block;
+  content: "";
+  background-color: var(--color-p1);
+  height: calc(4 / 18 * 1rem);
+  width: 100%;
+}
+
+@media (max-width: 799.98px) {
+  .link {
+    color: var(--color-p1);
+    background: var(--color-p5);
+    padding: calc(16 / 18 * 1rem) calc(32 / 18 * 1rem);
+    margin: calc(20 / 18 * 1rem) 0 calc(40 / 18 * 1rem);
+    border-radius: calc(3 / 18 * 1rem);
+    box-shadow: 0 calc(1 / 18 * 1rem) calc(2 / 18 * 1rem) rgba(0, 0, 0, 0.1);
+  }
+  .link::after {
+    display: none;
+  }
+}
+
+@media (max-width: 299.98px) {
+  .link {
+    font-size: 1rem;
+  }
+}
