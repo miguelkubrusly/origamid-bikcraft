@@ -1,7 +1,10 @@
 @import url(/css/utilities/components.css);
 @import url(/css/utilities/typography.css);
 @import url(/css/utilities/colors.css);
+
 @import url(/css/global/global.css);
 @import url(/css/global/header.css);
+
 @import url(/css/home/intro.css);
 @import url(/css/home/bicicletas-lista.css);
+@import url(/css/home/tecnologias.css);

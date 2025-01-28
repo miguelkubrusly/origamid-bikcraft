@@ -87,7 +87,7 @@
 :root {
   font-family: "Poppins", "Roboto", Arial, sans-serif;
   font-size: 18px;
-  color: var(--gray-11);
+  color: var(--color-11);
 }
 
 @media (min-width: 576px) and (max-width: 950px) {

@@ -1,7 +1,7 @@
 .header-bg {
   height: auto;
   width: 100%;
-  background-color: var(--gray-999);
+  background-color: var(--color-999);
   box-sizing: border-box;
   padding: 2rem;
 }
@@ -29,7 +29,7 @@
 .header-menu li::after {
   content: "";
   display: block;
-  background-color: var(--gray-000);
+  background-color: var(--color-0);
   height: 0.1rem;
   width: 0;
   position: absolute;
@@ -42,7 +42,7 @@
 }
 
 .header-menu a {
-  color: var(--gray-000);
+  color: var(--color-0);
   padding: 0.75rem 0.1rem;
 }
 
@@ -56,13 +56,13 @@
   }
 
   .header-menu a {
-    background: var(--gray-11);
+    background: var(--color-11);
     padding: 0.75rem;
     border-radius: 0.15rem;
   }
 
   .header-menu a:hover {
-    background: var(--gray-10);
+    background: var(--color-10);
   }
 }
 
