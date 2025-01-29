@@ -4,9 +4,12 @@
 
 @import url(/css/global/global.css);
 @import url(/css/global/header.css);
+@import url(/css/global/footer.css);
 
 @import url(/css/home/intro.css);
 @import url(/css/home/bicicletas-lista.css);
 @import url(/css/home/tecnologias.css);
 @import url(/css/home/parceiros.css);
 @import url(/css/home/depoimento.css);
+
+@import url(/css/seguros/seguros.css);
