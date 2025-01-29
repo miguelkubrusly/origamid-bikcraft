@@ -1,13 +1,13 @@
 .parceiros {
-  max-width: max;
-
-  margin: calc(120 / 18 * 1rem) 0;
-  justify-self: center;
+  display: grid;
+width: 100%;
+  margin: calc(60 / 18 * 1rem) 0;
+  justify-content: center;
 }
 
 .parceiros h2 {
   margin: calc(60 / 18 * 1rem);
-  margin-top: calc(120 / 18 * 1rem);
+  height: auto;
 }
 
 .parceiros ul {
