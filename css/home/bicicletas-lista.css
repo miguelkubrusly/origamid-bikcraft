@@ -43,7 +43,8 @@
   gap: calc(40 / 18 * 1rem);
   width: 100%;
   max-width: 1400px;
-  margin: 0 auto;
+  /* justify-self: center; */
+  /* margin: 0 auto; */
   padding: 0 calc(20 / 18 * 1rem);
   overflow-x: auto;
 }
@@ -55,6 +56,7 @@
 .bicicletas-lista li a {
   display: block;
   align-content: center;
+  color: var(--color-11);
 }
 
 .bicicletas-lista li span {
