@@ -5,6 +5,13 @@
   padding: 0 calc(20 / 18 * 1rem);
 }
 
+.page-title {
+  display: flex;
+  flex-direction: column;
+  gap: calc(20 / 18 * 1rem);
+  margin-bottom: calc(60 / 18 * 1rem);
+}
+
 .btn {
   display: inline-block;
   padding: calc(16 / 18 * 1rem) calc(32 / 18 * 1rem);
@@ -86,6 +93,22 @@
   }
   .link::before {
     display: none;
+  }
+}
+
+@media (max-width: 499.98px) {
+  .page-title {
+    gap: calc(16 / 18 * 1rem);
+    align-content: start;
+  }
+  .page-title h1 {
+    font-size: calc(32 / 18 * 1rem);
+    line-height: calc(48 / 18 * 1rem);
+  }
+
+  .page-title p {
+    font-size: 1rem;
+    line-height: calc(52 / 18 * 1rem);
   }
 }
 

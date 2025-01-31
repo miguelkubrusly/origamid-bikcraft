@@ -20,6 +20,10 @@ gap: calc(20/18*1rem);
   color: var(--color-11);
 }
 
+.termos-content h2:first-child{
+  margin-top: 0;
+}
+
 .termos-content p+p{
 margin-top: calc(42/18*1rem);
 }
