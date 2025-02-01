@@ -5,7 +5,7 @@
   grid-template-columns: repeat(2, 1fr);
 }
 
-.depoimento-img{
+.depoimento-img {
   justify-items: end;
 }
 
@@ -54,8 +54,8 @@
 
 .depoimento-content blockquote p::before {
   content: "“";
-  top: calc(-32 / 18 * 1rem);
-  left: calc(-50 / 18 * 1rem);
+  top: calc(-18 / 18 * 1rem);
+  left: calc(-60 / 18 * 1rem);
 }
 
 .depoimento-content blockquote p::after {
@@ -92,8 +92,6 @@
     width: 100%;
   }
 
-  
-
   .depoimento-content {
     text-align: center;
   }
@@ -122,4 +120,3 @@
     font-size: calc(28 / 18 * 1rem);
   }
 }
-
