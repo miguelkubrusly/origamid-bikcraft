@@ -60,6 +60,7 @@
 
 .depoimento-content blockquote p::after {
   content: "”";
+  margin-left: calc(4 / 18 * 1rem);
 }
 
 @media (max-width: 1649.98px) {
