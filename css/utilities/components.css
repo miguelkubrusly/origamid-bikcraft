@@ -10,9 +10,8 @@
   display: flex;
   flex-direction: column;
   gap: calc(20 / 18 * 1rem);
-  margin-bottom: calc(60 / 18 * 1rem);
+  margin: calc(32 / 18 * 1rem) auto;
 }
-
 
 .btn {
   display: inline-block;
@@ -29,6 +28,7 @@
   font-size: 1.2rem;
   line-height: 1.333;
   transition: 0.2s;
+  border: none;
 }
 
 .btn.primary {

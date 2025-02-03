@@ -1,0 +1,112 @@
+#contato{
+  background-color: var(--color-1);
+}
+
+.contato-title-bg {
+  padding: calc(16 / 18 * 1rem) 0;
+}
+
+.contato-online-wrapper {
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+  margin: auto;
+}
+.contato-online h2 {
+  font-weight: 600;
+}
+
+.contato-online-bg {
+  background: linear-gradient(var(--color-11) 60%, var(--color-1) 0);
+  padding-top: calc(16 / 18 * 1rem);
+}
+
+.contato-online,
+.contato-online-form {
+  padding: calc(72 / 18 * 1rem);
+}
+
+.contato-online {
+  background: var(--color-12);
+  display: flex;
+  flex-direction: column;
+  gap: calc(32 / 18 * 1rem);
+  padding-left: calc(28 / 18 * 1rem);
+  border-radius: calc(4 / 18 * 1rem) 0 0 calc(4 / 18 * 1rem);
+}
+
+.contato-online > div:nth-child(2) {
+  padding-left: calc(28 / 18 * 1rem);
+  background: url(/img/icones/local.svg) no-repeat calc(-1 / 18 * 1rem)
+    calc(2 / 18 * 1rem);
+}
+
+.contato-online-email {
+  background: url(/img/icones/email.svg) no-repeat calc(-1 / 18 * 1rem)
+    calc(2 / 18 * 1rem);
+  padding-left: calc(28 / 18 * 1rem);
+}
+.contato-online-telefone {
+  padding-left: calc(28 / 18 * 1rem);
+  padding-top: calc(16 / 18 * 1rem);
+  background: url(/img/icones/telefone.svg) no-repeat calc(-1 / 18 * 1rem)
+    calc(17 / 18 * 1rem);
+}
+
+.contato-online a {
+  display: block;
+  color: var(--color-4);
+  font-style: normal;
+}
+
+.contato-online-redes {
+  display: flex;
+  gap: calc(16 / 18 * 1rem);
+}
+
+.contato-online-form {
+  border-radius: 0 calc(4 / 18 * 1rem) calc(4 / 18 * 1rem) 0;
+  background: var(--color-0);
+}
+
+@media (max-width: 1199.98px) {
+  .contato-online-bg {
+    background: linear-gradient(var(--color-11) 80%, var(--color-1) 0);
+  }
+  .contato-online {
+    border-radius: 0 0 calc(4 / 18 * 1rem) calc(4 / 18 * 1rem);
+  }
+
+  .contato-online-form {
+    background: var(--color-0);
+    grid-row: 1;
+    border-radius: calc(4 / 18 * 1rem) calc(4 / 18 * 1rem) 0 0;
+  }
+
+  .contato-online-wrapper {
+    grid-template-columns: 1fr;
+    padding: 0 calc(32 / 18 * 1rem);
+  }
+  .contato-online-form {
+  }
+}
+
+@media (max-width: 419.98px) {
+  .contato-online,
+  .contato-online-form {
+    padding: calc(32 / 18 * 1rem);
+  }
+
+  .contato-online-wrapper {
+    padding: 0;
+  }
+  .contato-online {
+    border-radius: 0;
+  }
+
+  .contato-online-form {
+    background: var(--color-0);
+    grid-row: 1;
+    border-radius: 0;
+  }
+}

@@ -1,0 +1,86 @@
+.contato-local {
+  padding: calc(24 / 18 * 1rem) calc(16 / 18 * 1rem) calc(80/18*1rem);
+  display: grid;
+  gap: calc(20 / 18 * 1rem);
+  grid-template-columns: repeat(2, 1fr);
+}
+.contato-local h2 {
+  grid-column: 1/-1;
+  padding: calc(60 / 18 * 1rem) 0 calc(32/18*1rem);
+}
+
+.contato-local a {
+  display: block;
+  color: var(--color-8);
+}
+
+.contato-local-card {
+  background-color: var(--color-0);
+}
+
+.contato-local-card > div {
+  padding: calc(32 / 18 * 1rem);
+  padding-left: calc(48 / 18 * 1rem);
+  display: grid;
+  gap: calc(32 / 18 * 1rem);
+  grid-template-columns: 1fr 1fr;
+  border-radius: 0 0 calc(4/18*1rem) calc(4/18*1rem);
+}
+.contato-local-card > div h3 {
+  grid-column: 1/-1;
+  position: relative;
+}
+.contato-local-card > div h3::before {
+  content: "";
+  position: absolute;
+  top: calc(16 / 18 * 1rem);
+  left: calc(-22 / 18 * 1rem);
+  background: linear-gradient(to right, var(--color-p1), var(--color-p2));
+  height: calc(7 / 18 * 1rem);
+  width: calc(16 / 18 * 1rem);
+}
+.contato-local-card img {
+  border-radius: calc(4/18*1rem) calc(4/18*1rem) 0 0;
+}
+.contato-local-card > div h3 {
+  grid-column: 1/-1;
+}
+.contato-local-card > div div {
+  height: max-content;
+  color: var(--color-8);
+  padding-left: calc(12 / 18 * 1rem);
+  border-left: calc(3 / 18 * 1rem) solid var(--color-2);
+}
+
+.contato-local-card > div > p {
+  grid-column: 1/-1;
+  position: relative;
+}
+.contato-local-card > div > p::before {
+  content: "";
+  display: block;
+  background: url(/img/icones/horario.svg) no-repeat ;
+  width: calc(20/18*1rem);
+  height: calc(20/18*1rem);
+  position: absolute;
+  top: calc(3/18*1rem);
+  left: calc(-24/18*1rem);
+}
+
+@media (max-width: 780px) {
+.contato-local {
+
+  grid-template-columns: repeat(1, 1fr);
+}
+.contato-local h2 {
+  font-size: 3rem;
+}
+}
+@media (max-width: 367.98px){
+  .contato-local h2 {
+    font-size: 2.5rem;
+  }
+  .contato-local-card > div {
+  grid-template-columns: 1fr;
+}
+}
