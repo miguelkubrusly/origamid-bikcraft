@@ -6,7 +6,7 @@
 }
 .contato-local h2 {
   grid-column: 1/-1;
-  padding: calc(60 / 18 * 1rem) 0 calc(32/18*1rem);
+  padding: calc(60 / 18 * 1rem) 0 calc(32/18*1rem) ;
 }
 
 .contato-local a {
@@ -77,9 +77,12 @@
 }
 }
 @media (max-width: 367.98px){
-  .contato-local h2 {
-    font-size: 2.5rem;
+  .contato-local {
+  padding: calc(24 / 18 * 1rem) calc(0 / 18 * 1rem) calc(80/18*1rem);
   }
+.contato-local h2 {
+  padding: calc(32 / 18 * 1rem) 0 calc(20/18*1rem) calc(16/18*1rem);
+}
   .contato-local-card > div {
   grid-template-columns: 1fr;
 }
