@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: calc(20 / 18 * 1rem);
+  place-content: start;
 }
 
 .form label {
