@@ -10,7 +10,8 @@
   display: flex;
   flex-direction: column;
   gap: calc(20 / 18 * 1rem);
-  margin: calc(32 / 18 * 1rem) auto;
+  margin: 0 auto;
+  padding: calc(60/18*1rem) 0;
 }
 
 .btn {
@@ -22,7 +23,6 @@
   border: none;
   min-width: max-content;
   max-height: max-content;
-  height: 100%;
   cursor: pointer;
   font-weight: 600;
   font-size: 1.2rem;

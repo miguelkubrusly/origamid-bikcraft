@@ -1,6 +1,5 @@
 .parceiros {
   display: grid;
-width: 100%;
   margin: calc(96 / 18 * 1rem) 0 calc(180/18*1rem) 0;
   justify-content: center;
 }
@@ -11,7 +10,7 @@ width: 100%;
 }
 
 .parceiros ul {
-  max-width: 1400px;
+  max-width: 1200px;
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(4, 1fr);

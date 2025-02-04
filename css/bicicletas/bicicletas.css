@@ -48,14 +48,14 @@
 .bicicletas-item > div {
   position: relative;
 }
-.bicicletas-item div:nth-child(2) {
+.bicicletas-item > div:nth-child(2) {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: calc(32 / 18 * 1rem);
 }
-.bicicletas-item div:nth-child(2) a {
-  place-self: end;
+.bicicletas-item  a {
   display: flex;
+  place-self: end;
   align-items: center;
   gap: calc(8 / 18 * 1rem);
 }
@@ -74,6 +74,7 @@
   width: calc(24 / 18 * 1rem);
   transition: width 0.2s ease;
 }
+
 
 .bicicletas-item div:nth-child(2) a:hover::after {
   width: calc(32 / 18 * 1rem);
