@@ -1,5 +1,3 @@
-
-
 .orcamento-conteudo {
   display: none;
 }
@@ -8,8 +6,8 @@
   display: grid;
   grid-template-columns: auto auto 1fr;
   align-items: center;
-  padding-left: calc(10/18*1rem);
-  padding-right: calc(10/18*1rem);
+  padding-left: calc(10 / 18 * 1rem);
+  padding-right: calc(10 / 18 * 1rem);
   margin-bottom: 0;
   width: 100%;
   border-radius: calc(4 / 18 * 1rem);
@@ -79,15 +77,13 @@ input:checked + label + .orcamento-detalhes {
   gap: calc(32 / 18 * 1rem);
 }
 
-@media (min-width: 1200px) and (max-width: 1400px){
+@media (min-width: 1200px) and (max-width: 1400px) {
   input:checked + label + .orcamento-detalhes {
-  grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
-}
-@media (max-width: 500px){
+@media (max-width: 500px) {
   input:checked + label + .orcamento-detalhes {
-  grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
-
-}
-

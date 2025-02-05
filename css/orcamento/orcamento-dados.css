@@ -15,13 +15,13 @@
 }
 
 @media (max-width: 1200px) {
-.orcamento-dados {
-  border-radius: 0 0 calc(4 / 18 * 1rem) calc(4 / 18 * 1rem) ;
-}
+  .orcamento-dados {
+    border-radius: 0 0 calc(4 / 18 * 1rem) calc(4 / 18 * 1rem);
+  }
 }
 
 @media (max-width: 450px) {
-.orcamento-dados {
-  padding: calc(20 / 18 * 1rem) calc(20 / 18 * 1rem) calc(32/18*1rem);
-}
+  .orcamento-dados {
+    padding: calc(20 / 18 * 1rem) calc(20 / 18 * 1rem) calc(32 / 18 * 1rem);
+  }
 }

@@ -57,12 +57,12 @@
   }
 }
 
-@media (max-width: 467.98px){
+@media (max-width: 467.98px) {
   .intro {
-  padding: 1rem;
-}
+    padding: 1rem;
+  }
 
-.intro-content {
-  margin-right: 0;
-}
+  .intro-content {
+    margin-right: 0;
+  }
 }

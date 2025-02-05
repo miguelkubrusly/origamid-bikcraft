@@ -14,7 +14,7 @@
 }
 
 .footer-contato {
-  padding-top: calc(5.2/18*1rem);
+  padding-top: calc(5.2 / 18 * 1rem);
   display: grid;
   gap: calc(32 / 18 * 1rem);
   max-width: calc(300 / 18 * 1rem);
@@ -27,7 +27,7 @@
 }
 
 .footer-informacoes {
-  padding-top: calc(5.2/18*1rem);
+  padding-top: calc(5.2 / 18 * 1rem);
   display: grid;
   grid-template-rows: auto 1fr;
   gap: calc(32 / 18 * 1rem);

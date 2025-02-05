@@ -60,8 +60,7 @@
   }
 }
 @media (max-width: 450px) {
-#orcamento .container {
-  padding: 0;
-}
+  #orcamento .container {
+    padding: 0;
   }
-
+}

@@ -53,7 +53,7 @@
   grid-template-columns: 1fr 1fr;
   gap: calc(32 / 18 * 1rem);
 }
-.bicicletas-item  a {
+.bicicletas-item a {
   display: flex;
   place-self: end;
   align-items: center;
@@ -74,7 +74,6 @@
   width: calc(24 / 18 * 1rem);
   transition: width 0.2s ease;
 }
-
 
 .bicicletas-item div:nth-child(2) a:hover::after {
   width: calc(32 / 18 * 1rem);
