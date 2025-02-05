@@ -1,8 +1,12 @@
+.depoimento-bg {
+  /* max-height:max-content; */
+}
+
 .depoimento {
-  width: 100%;
+  max-width: 1400px;
   display: grid;
-  background: var(--color-p1);
   grid-template-columns: repeat(2, 1fr);
+  margin: 0 auto;
 }
 
 .depoimento-img {
@@ -10,19 +14,24 @@
 }
 
 .depoimento img {
+
   object-fit: cover;
+  display: block;
+
   border-radius: initial;
 }
 
 .depoimento-content {
+  max-height: 100%;
   width: 100%;
   display: flex;
-  flex: 1px;
   flex-direction: column;
-  justify-content: end;
+  align-self: center;
+  /* justify-items: center; */
   gap: calc(40 / 18 * 1rem);
   background: var(--color-p1);
   padding: calc(100 / 18 * 1rem);
+  padding-bottom: 0;
 }
 
 .depoimento-content blockquote {
@@ -30,7 +39,7 @@
   font-size: 2rem;
   font-style: italic;
   font-weight: 900;
-  line-height: 1.33;
+  line-height: 1;
   color: var(--color-p5);
   position: relative;
 }
@@ -74,9 +83,6 @@
   .depoimento-content {
     gap: calc(20 / 18 * 1rem);
     padding-bottom: calc(40 / 18 * 1rem);
-  }
-  .depoimento-content blockquote {
-    line-height: 1;
   }
 }
 
