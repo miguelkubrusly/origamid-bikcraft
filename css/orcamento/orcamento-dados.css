@@ -1,0 +1,27 @@
+.orcamento-dados {
+  background: var(--color-0);
+  padding: calc(60 / 18 * 1rem);
+  border-radius: 0 calc(4 / 18 * 1rem) calc(4 / 18 * 1rem) 0;
+  height: 100%;
+}
+
+.orcamento-dados * + h2,
+.orcamento-dados button {
+  margin-top: calc(40 / 18 * 1rem);
+}
+
+.orcamento-dados button {
+  place-self: start;
+}
+
+@media (max-width: 1200px) {
+.orcamento-dados {
+  border-radius: 0 0 calc(4 / 18 * 1rem) calc(4 / 18 * 1rem) ;
+}
+}
+
+@media (max-width: 450px) {
+.orcamento-dados {
+  padding: calc(20 / 18 * 1rem) calc(20 / 18 * 1rem) calc(32/18*1rem);
+}
+}

@@ -1,0 +1,81 @@
+.orcamento-produto {
+  padding: calc(60 / 18 * 1rem);
+  background: var(--color-12);
+  border-radius: calc(4 / 18 * 1rem) 0 0 calc(4 / 18 * 1rem);
+}
+.orcamento-produto label {
+  padding: calc(60 / 18 * 1rem);
+  background: var(--color-12);
+  border-radius: calc(4 / 18 * 1rem) 0 0 calc(4 / 18 * 1rem);
+}
+
+#bikcraft:checked ~ #orcamento-bikcraft,
+#seguro:checked ~ #orcamento-seguro {
+  display: block;
+}
+
+.orcamento-produto label {
+  background: var(--color-9);
+  color: var(--color-4);
+  display: block;
+  width: max-content;
+  padding: calc(12 / 18 * 1rem) calc(16 / 18 * 1rem);
+  border-radius: calc(4 / 18 * 1rem);
+  margin: calc(16 / 18 * 1rem) 0;
+}
+.orcamento-produto input:checked + label {
+  background: var(--color-0);
+  color: var(--color-11);
+}
+
+.orcamento-produto input:focus + label {
+  box-shadow: 0 0 0 calc(3 / 18 * 1rem) var(--color-p1);
+  outline: calc(1 / 18 * 1rem) solid var(--color-12);
+}
+.orcamento-produto label:hover {
+  background: var(--color-8);
+  color: var(--color-0);
+}
+.orcamento-produto > label {
+  display: inline-block;
+  margin-right: calc(12 / 18 * 1rem);
+}
+.orcamento-produto input:checked + label::before {
+  border-color: var(--color-8);
+  background: var(--color-8);
+  box-shadow: inset 0 0 0 calc(2.5 / 18 * 1rem) var(--color-0);
+}
+
+.orcamento-produto label::before {
+  content: "";
+  display: inline-block;
+  width: calc(10 / 18 * 1rem);
+  height: calc(10 / 18 * 1rem);
+  border: calc(1 / 18 * 1rem) solid;
+  border-radius: 50%;
+  margin-right: calc(12 / 18 * 1rem);
+}
+
+.orcamento-produto input {
+  opacity: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.orcamento-produto input:focus + label {
+  box-shadow: 0 0 0 calc(3 / 18 * 1rem) var(--color-p1);
+  outline: calc(1 / 18 * 1rem) solid var(--color-12);
+}
+@media (max-width: 1200px) {
+  .orcamento-produto {
+    border-radius: calc(4 / 18 * 1rem) calc(4 / 18 * 1rem) 0 0;
+  }
+}
+@media (max-width: 450px) {
+  .orcamento-produto {
+    padding: 0;
+  }
+  .orcamento-produto {
+    padding: calc(20 / 18 * 1rem) calc(20 / 18 * 1rem) calc(32 / 18 * 1rem);
+  }
+}
