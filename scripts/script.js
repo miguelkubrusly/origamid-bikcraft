@@ -21,7 +21,9 @@ const bikeImgList = document.querySelectorAll(".bicicleta-imagens img");
 
 const changeToTop = (event) => {
   const img = event.currentTarget;
+  const scrollY = window.scrollY;
   bikeImgs.prepend(img);
+  window.scrollTo({ top: scrollY, behavior: "instant" });
 };
 
 bikeImgList.forEach((bike) => {
