@@ -17,7 +17,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: calc(16 / 18 * 1rem);
-  align-self: self-start;
+  align-self: start;
 }
 
 .bicicleta-imagens img {
