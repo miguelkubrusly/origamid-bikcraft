@@ -8,7 +8,11 @@
     <link rel="icon" href="/favicon.svg" />
     <link rel="preload" href="/css/style.min.css" as="style" type="text/css" />
     <link rel="stylesheet" href="/css/style.min.css" type="text/css" />
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
   </head>
+
   <body id="bicicleta">
     <header class="header-bg bg-color-0">
       <div class="header">
@@ -26,14 +30,14 @@
     </header>
     <main class="titulo-bg bg-color-11">
       <div>
-        <div class="page-title">
+        <div class="page-title" data-anime="200">
           <p class="font-2-xl color-5">R$ 2499</p>
           <h1 class="font-1-xxl color-0">
             Magic Might<span class="color-p1">.</span>
           </h1>
         </div>
       </div>
-      <div class="bicicleta container">
+      <div data-anime="400" class="bicicleta container">
         <div class="bicicleta-imagens">
           <img
             src="/img/bicicleta/nimbus2.jpg"

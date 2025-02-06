@@ -16,7 +16,7 @@
 .bicicleta-imagens {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: calc(32 / 18 * 1rem);
+  gap: calc(16 / 18 * 1rem);
   align-self: self-start;
 }
 
@@ -28,6 +28,7 @@
 
 .bicicleta-imagens img:first-child {
   cursor: initial;
+  overflow-y: hidden;
   grid-column: 1/-1;
 }
 
@@ -37,7 +38,7 @@
   gap: calc(32 / 18 * 1rem);
 }
 .bicicleta-conteudo h2 {
-  margin-top: calc(32/18*1rem);
+  margin-top: calc(32 / 18 * 1rem);
 }
 .bicicleta-comprar {
   display: grid;
