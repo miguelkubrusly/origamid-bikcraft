@@ -6,7 +6,7 @@
   padding: 0 calc(32 / 18 * 1rem) calc(60 / 18 * 1rem);
 }
 .orcamento-titulo {
-  max-width: 1600px;
+  width: 100%;
 }
 
 .orcamento-titulo .page-title > * {
