@@ -43,6 +43,7 @@
 
 .seguros-item a {
   justify-self: start;
+  align-self: end;
 }
 
 .seguros-item li::before {
