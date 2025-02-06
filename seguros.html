@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Seguros | Bikcraft</title>
     <meta name="description" content="Seguros." />
-    <link rel="preload" href="css/style.css" as="style" type="text/css" />
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="preload" href="/css/style.css" as="style" type="text/css" />
+    <link rel="stylesheet" href="/css/style.css" type="text/css" />
   </head>
   <body id="seguros">
     <header class="header-bg bg-color-0">
@@ -24,13 +24,13 @@
       </div>
     </header>
     <main class="seguros-bg bg-color-11">
-      <div class="page-title container">
+      <div class="page-title container" data-anime="200">
         <p class="font-2-l-b color-5">Escolha o seguro</p>
         <h1 class="font-1-xxl color-0">
           você seguro<span class="color-p1">.</span>
         </h1>
       </div>
-      <div class="seguros container">
+      <div class="seguros container" data-anime="400">
         <div class="seguros-item">
           <h3 class="font-1-xl color-6">PRATA</h3>
           <span class="font-1-xl color-0"
@@ -42,7 +42,11 @@
             <li>Suporte 08h às 18h</li>
             <li>Cobertura estadual</li>
           </ul>
-          <a class="btn secondary" href="/orcamento.html">Inscreva-se</a>
+          <a
+            class="btn secondary"
+            href="/orcamento.html?product=ensurance&ensurance=prata"
+            >Inscreva-se</a
+          >
         </div>
         <div class="seguros-item">
           <h3 class="font-1-xl color-p1">OURO</h3>
@@ -57,7 +61,11 @@
             <li>Desconto em parceiros</li>
             <li>Acesso ao Clube Bikcraft</li>
           </ul>
-          <a class="btn primary" href="/orcamento.html">Inscreva-se</a>
+          <a
+            class="btn primary"
+            href="/orcamento.html?product=ensurance&ensurance=ouro"
+            >Inscreva-se</a
+          >
         </div>
       </div>
     </main>
@@ -258,6 +266,7 @@
         </p>
       </div>
     </footer>
-    <script src="/scripts/script.js"></script>
+    <script type="module" src="/scripts/plugins/Animate.js"></script>
+    <script type="module" src="/scripts/script.js"></script>
   </body>
 </html>

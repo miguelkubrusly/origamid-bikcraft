@@ -22,23 +22,28 @@
   height: 100%;
 }
 
-.header-menu li {
+.header-menu a {
+  display: block;
   position: relative;
 }
 
-.header-menu li::after {
+.header-menu a::after {
   content: "";
   display: block;
   background-color: var(--color-0);
   height: 0.1rem;
   width: 0;
   position: absolute;
-  bottom: -0.2rem;
+  bottom: 0.3rem;
   transition: 0.2s;
 }
 
-.header-menu li:hover::after {
+.header-menu a:hover::after {
   width: 100%;
+}
+.header-menu a.ativo::after {
+  width: 100%;
+  transition: none;
 }
 
 .header-menu a {
@@ -51,7 +56,7 @@
     gap: 1rem;
   }
 
-  .header-menu li::after {
+  .header-menu a::after {
     display: none;
   }
 
@@ -62,8 +67,10 @@
     transition: 0.2s;
   }
 
-  .header-menu a:hover {
+  .header-menu a:hover,
+  .header-menu a.ativo {
     background: var(--color-10);
+    padding: 0.85rem;
   }
 }
 

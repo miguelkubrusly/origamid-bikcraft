@@ -23,9 +23,11 @@
 .bicicleta-imagens img {
   height: 100%;
   object-fit: cover;
+  cursor: pointer;
 }
 
 .bicicleta-imagens img:first-child {
+  cursor: initial;
   grid-column: 1/-1;
 }
 
@@ -33,6 +35,9 @@
   display: flex;
   flex-direction: column;
   gap: calc(32 / 18 * 1rem);
+}
+.bicicleta-conteudo h2 {
+  margin-top: calc(32/18*1rem);
 }
 .bicicleta-comprar {
   display: grid;

@@ -9,7 +9,7 @@
       name="description"
       content="Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft."
     />
-    <link rel="preload" href="css/style.css" as="style" type="text/css" />
+    <link rel="preload" href="/css/style.css" as="style" type="text/css" />
     <link rel="stylesheet" href="/css/style.css" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -45,8 +45,8 @@
     </header>
 
     <main class="intro-bg bg-color-12">
-      <div class="intro container color-0">
-        <div class="intro-content">
+      <div class="intro container color-0" data-anime="200">
+        <div class="intro-content fadeInLeft" data-anime="400">
           <h1 class="font-1-xxl">
             Bicicletas feitas sob medida<span class="color-p1">.</span>
           </h1>
@@ -56,7 +56,7 @@
           </p>
           <a href="/bicicletas.html" class="btn primary">Escolha a sua</a>
         </div>
-        <div class="intro-img">
+        <div class="intro-img fadeInRight" data-anime="400">
           <img
             src="/img/fotos/introducao.jpg"
             alt="Bicicleta elétrica preta."
@@ -286,7 +286,11 @@
             <li>Suporte 08h às 18h</li>
             <li>Cobertura estadual</li>
           </ul>
-          <a class="btn secondary" href="/orcamento.html">Inscreva-se</a>
+          <a
+            class="btn secondary"
+            href="/orcamento.html?product=ensurance&ensurance=prata"
+            >Inscreva-se</a
+          >
         </div>
 
         <div class="seguros-item">
@@ -302,7 +306,11 @@
             <li>Desconto em parceiros</li>
             <li>Acesso ao Clube Bikcraft</li>
           </ul>
-          <a class="btn primary" href="/orcamento.html">Inscreva-se</a>
+          <a
+            class="btn primary"
+            href="/orcamento.html?product=ensurance&ensurance=ouro"
+            >Inscreva-se</a
+          >
         </div>
       </div>
     </article>
@@ -363,6 +371,7 @@
         </p>
       </div>
     </footer>
-    <script src="/scripts/script.js"></script>
+    <script type="module" src="/scripts/plugins/Animate.js"></script>
+    <script type="module" src="/scripts/script.js"></script>
   </body>
 </html>

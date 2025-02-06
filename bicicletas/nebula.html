@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nebula | Bikcraft</title>
     <meta name="description" content="Nebula." />
-    <link rel="preload" href="css/style.css" as="style" type="text/css" />
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="preload" href="/css/style.css" as="style" type="text/css" />
+    <link rel="stylesheet" href="/css/style.css" type="text/css" />
   </head>
   <body id="bicicleta">
     <header class="header-bg bg-color-0">
@@ -60,7 +60,11 @@
             velocidade.
           </p>
           <div class="bicicleta-comprar">
-            <a class="btn primary" href="/orcamento.html">Comprar Agora</a>
+            <a
+              class="btn primary"
+              href="/orcamento.html?product=bike&bike=nebula"
+              >Comprar Agora</a
+            >
             <div>
               <span class="font-1-xs color-6"
                 ><img
@@ -254,6 +258,7 @@
         </p>
       </div>
     </footer>
-    <script src="/scripts/script.js"></script>
+    <script type="module" src="/scripts/plugins/Animate.js"></script>
+    <script type="module" src="/scripts/script.js"></script>
   </body>
 </html>

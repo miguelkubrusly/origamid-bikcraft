@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Orçamento | Bikcraft</title>
     <meta name="description" content="Orçamento." />
-    <link rel="preload" href="css/style.css" as="style" type="text/css" />
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="preload" href="/css/style.css" as="style" type="text/css" />
+    <link rel="stylesheet" href="/css/style.css" type="text/css" />
   </head>
   <body id="orcamento">
     <header class="header-bg bg-color-0">
@@ -25,15 +25,15 @@
     </header>
     <main>
       <div class="orcamento-titulo bg-color-11">
-        <div class="page-title">
+        <div class="page-title" data-anime="200">
           <p class="font-2-l-b color-5">Cotações no seu email</p>
           <h1 class="font-1-xxl color-0">
             solicite um orçamento<span class="color-p1">.</span>
           </h1>
         </div>
       </div>
-      <form class="orcamento container" action="/orcamento.html">
-        <div class="orcamento-produto">
+      <form class="orcamento container" action="/orcamento.html" data-anime="400">
+        <div class="orcamento-produto" data-anime="600">
           <h2 class="font-1-xs color-5">Bikcraft ou Seguro?</h2>
           <input type="radio" name="tipo" value="bikcraft" id="bikcraft" />
           <label for="bikcraft">Bikcraft</label>
@@ -194,7 +194,7 @@
             <label for="ouro">Ouro <span>R$ 299</span></label>
           </div>
         </div>
-        <div class="orcamento-dados form">
+        <div class="orcamento-dados form" data-anime="600">
           <h2 class="font-1-xs color-9 col-2">dados pessoais</h2>
           <div>
             <label for="nome">Nome</label>
@@ -302,6 +302,7 @@
         </p>
       </div>
     </footer>
-    <script src="/scripts/script.js"></script>
+    <script type="module" src="/scripts/plugins/Animate.js"></script>
+    <script type="module" src="/scripts/script.js"></script>
   </body>
 </html>
