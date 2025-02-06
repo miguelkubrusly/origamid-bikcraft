@@ -11,13 +11,16 @@
   padding-left: 2rem;
 }
 
-.seguros-perguntas dt {
+.seguros-perguntas button {
   display: flex;
   justify-content: space-between;
   padding: 1rem;
   position: relative;
+  border: none;
+  background: none;
+  width: 100%;
 }
-.seguros-perguntas dt::before {
+.seguros-perguntas button::before {
   display: inline-block;
   content: "";
   background: var(--color-p1);
@@ -27,7 +30,7 @@
   top: calc(26 / 18 * 1rem);
   left: calc(-16 / 18 * 1rem);
 }
-.seguros-perguntas dt::after {
+.seguros-perguntas button::after {
   display: inline-block;
   content: "";
   background: url(/img/icones/seta-abrir.svg) no-repeat center;
@@ -35,7 +38,7 @@
   height: 1rem;
   transition: 0.3s;
 }
-.seguros-perguntas dt:hover::after {
+.seguros-perguntas button:hover::after {
   transform: rotate(180deg);
 }
 
