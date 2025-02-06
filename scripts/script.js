@@ -20,7 +20,6 @@ const bikeImgs = document.querySelector(".bicicleta-imagens");
 const bikeImgList = document.querySelectorAll(".bicicleta-imagens img");
 
 const changeToTop = (event) => {
-  window.scrollTo(0, 420);
   const img = event.currentTarget;
   bikeImgs.prepend(img);
 };
