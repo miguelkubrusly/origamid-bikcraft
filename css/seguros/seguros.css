@@ -10,7 +10,7 @@
 }
 .seguros h2 {
   grid-column: 1/-1;
-  padding-left: calc(32 / 18 * 1rem);
+  padding: calc(48 / 18 * 1rem) 0 calc(32 / 18 * 1rem) calc(32 / 18 * 1rem);
 }
 .seguros-item {
   display: grid;

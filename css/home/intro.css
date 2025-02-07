@@ -15,6 +15,7 @@
   align-self: center;
   padding-bottom: calc(200 / 18 * 1rem);
   margin-right: 1rem;
+  align-items: start;
 }
 
 .intro h1 {
