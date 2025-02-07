@@ -116,6 +116,10 @@ background: #000;
 }
 
 @media (max-width: 499.98px) {
+  .bicicletas-bg {
+    padding: 0;
+  }
+
   .bicicletas > * {
     padding: calc(32 / 18 * 1rem) calc(32 / 18 * 1rem);
   }

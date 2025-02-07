@@ -82,6 +82,9 @@
   }
 
   @media (max-width: 399.98px) {
+    .seguros-bg {
+      padding: 0;
+    }
     .seguros {
       justify-items: initial;
     }

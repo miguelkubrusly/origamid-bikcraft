@@ -11,7 +11,7 @@
   flex-direction: column;
   gap: calc(20 / 18 * 1rem);
   margin: 0 auto;
-  padding: calc(60/18*1rem) 0;
+  padding: calc(60 / 18 * 1rem) 0;
 }
 
 .btn {
@@ -102,6 +102,8 @@
   .page-title {
     gap: calc(16 / 18 * 1rem);
     align-content: start;
+    padding: calc(32 / 18 * 1rem) calc(40 / 18 * 1rem);
+    /* padding-left: ; */
   }
   .page-title h1 {
     font-size: calc(48 / 18 * 1rem);
@@ -110,7 +112,6 @@
 
   .page-title p {
     font-size: 1rem;
-    line-height: calc(52 / 18 * 1rem);
   }
 }
 
