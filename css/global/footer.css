@@ -66,4 +66,20 @@
   .footer {
     grid-template-columns: 1fr;
   }
+  .footer-informacoes a {
+    background: var(--color-11);
+    padding: 0.75rem;
+    border-radius: 0.15rem;
+    transition: 0.2s;
+  }
+  /* .footer-informacoes li, */
+  .footer-informacoes li + li {
+    margin-top: calc(48 / 18 * 1rem);
+  }
+
+  .footer-informacoes a:hover,
+  .footer-informacoes a.ativo {
+    background: var(--color-10);
+    padding: 0.85rem;
+  }
 }

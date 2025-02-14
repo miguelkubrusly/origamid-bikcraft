@@ -63,4 +63,7 @@
   #orcamento .container {
     padding: 0;
   }
+  #orcamento .footer-bg {
+    padding: calc(40 / 18 * 1rem);
+  }
 }

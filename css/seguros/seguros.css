@@ -84,6 +84,7 @@
   @media (max-width: 399.98px) {
     .seguros-bg {
       padding: 0;
+      padding-bottom: calc(24 / 18 * 1rem);
     }
     .seguros {
       justify-items: initial;
